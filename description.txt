@@ -1,0 +1,22 @@
+React (Frontend)
+      ↓
+Spring Boot REST API (Backend)
+      ↓
+Apache POI parses DOCX
+      ↓
+Document360 API
+      ↓
+Article created in Knowledge Base
+
+
+To run frontend:npm start;
+To run Backend: mvn spring-boot:run;
+
+Backend:
+1.Receive the DOCX file
+
+2.Parse it using Apache POI
+
+3.Convert content to HTML
+
+4.Call Document360 API to create the article
