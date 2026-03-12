@@ -15,7 +15,7 @@ To run Backend: mvn spring-boot:run;
 Backend:
 1.Receive the DOCX file
 
-2.Parse it using Apache POI
+2.Parse it using Apache POI (Apache POI a java library used to read write and manipulate the modern microdoft office formats )
 
 3.Convert content to HTML
 
